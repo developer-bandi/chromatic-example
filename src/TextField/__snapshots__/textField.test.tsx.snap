@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`input에 값을 넣은 만큼 onChange 핸들러가 호출 됩니다 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <label
+      class="title"
+      data-testid="label"
+      for="일련번호"
+    >
+      일련번호
+    </label>
+    <input
+      class="field"
+      data-testid="input"
+      id="일련번호"
+    />
+  </div>
+</div>
+`;
+
+exports[`스냅샷 테스트 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <label
+      class="title"
+      data-testid="label"
+      for="일련번호"
+    >
+      일련번호
+    </label>
+    <input
+      class="field"
+      data-testid="input"
+      id="일련번호"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.passwordInputBox {
+  width: 277px;
+  height: 20px;
+  display: flex;
+  border: 2px solid #e1e1e1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.passwordInput:focus {
+  outline: 1px solid skyblue;
+  border: 2px solid skyblue;
+}
+
+.passwordInput {
+  width: 260px;
+  border: none;
+}
+
+.input {
+  width: 277px;
+  height: 20px;
+  padding: 10px;
+  border: 2px solid #e1e1e1;
+  margin: auto;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.input:focus {
+  outline: 1px solid skyblue;
+  border: 2px solid skyblue;
+}
+
+.eyesButton {
+  background-color: white;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+}
